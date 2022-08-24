@@ -1,0 +1,60 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-13T08:30:36.171Z",
+    "line" : 3,
+    "name" : "Check logine is succesfull with valid cradintioal",
+    "description" : "",
+    "id" : "feaure-to-be-test-login-functionality;check-logine-is-succesfull-with-valid-cradintioal",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2000900,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user is on logine Page",
+      "match" : {
+        "location" : "StepDefinations.LoginStep.is_on_logine_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user is enters valid username and Passward",
+      "match" : {
+        "location" : "StepDefinations.LoginStep.user_is_enters_valid_username_and_passward()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "click on login button",
+      "match" : {
+        "location" : "StepDefinations.LoginStep.click_on_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User is navigated on Home Page",
+      "match" : {
+        "location" : "StepDefinations.LoginStep.user_is_navigated_on_home_page()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Feaure to be test login functionality",
+  "description" : "",
+  "id" : "feaure-to-be-test-login-functionality",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Feature/login.feature",
+  "tags" : [ ]
+} ]
